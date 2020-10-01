@@ -180,7 +180,7 @@ public class New_spider implements PageProcessor {
 
 
         request.setRequestBody(HttpRequestBody.form(params,"utf-8"));
-
+ 
         Spider.create(new New_spider())
                 .addRequest(request)
                 //开启1个线程抓取

@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dakasipder.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/dakasipder.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/dakasipder.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/dakasipder.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601442973961</updated>
       <workItem from="1601442978397" duration="10755000" />
-      <workItem from="1601570610417" duration="11408000" />
+      <workItem from="1601570610417" duration="11688000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>
@@ -190,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601458267997</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1 打卡功能完成！">
+      <created>1601582618814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601582618814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
-    <option name="LAST_COMMIT_MESSAGE" value="111" />
+    <MESSAGE value="1.1 打卡功能完成！" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1 打卡功能完成！" />
   </component>
 </project>
