@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="xuexiaodaka:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/ConsolePipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/CurrTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/xuexiaodaka_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,9 +39,11 @@
   <component name="ProjectId" id="1iDX87L2J41qe22xqjlRt0pKfOe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -184,7 +188,7 @@
       <updated>1601442973961</updated>
       <workItem from="1601442978397" duration="10755000" />
       <workItem from="1601570610417" duration="12230000" />
-      <workItem from="1601627106151" duration="11999000" />
+      <workItem from="1601627106151" duration="16924000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>
@@ -214,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601582947246</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.2 定时打卡功能上线！">
+      <created>1601644298599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601644298599</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +247,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
     <MESSAGE value="1.1 打卡功能完成！" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1 打卡功能完成！" />
+    <MESSAGE value="1.2 定时打卡功能上线！" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2 定时打卡功能上线！" />
   </component>
 </project>

@@ -43,7 +43,7 @@ public class Awaken implements Runnable{
             }
             try {
                 //间隔时间1*60*5秒
-                Thread.sleep(1000*10*5);
+                Thread.sleep(1000*60*5);
             }catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -64,11 +64,6 @@ public class Awaken implements Runnable{
 
 
     }
-
-
-
-
-
 
 
 
