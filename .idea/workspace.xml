@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" afterDir="false" />
-    </list>
+    <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +181,7 @@
       <updated>1601442973961</updated>
       <workItem from="1601442978397" duration="10755000" />
       <workItem from="1601570610417" duration="12230000" />
-      <workItem from="1601627106151" duration="18837000" />
+      <workItem from="1601627106151" duration="19595000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>
@@ -230,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601650311949</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.2.1 修改打卡所需位置信息">
+      <created>1601655402538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601655402538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +255,7 @@
     <MESSAGE value="111" />
     <MESSAGE value="1.1 打卡功能完成！" />
     <MESSAGE value="1.2 定时打卡功能上线！" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2 定时打卡功能上线！" />
+    <MESSAGE value="1.2.1 修改打卡所需位置信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2.1 修改打卡所需位置信息" />
   </component>
 </project>
