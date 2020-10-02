@@ -2,15 +2,14 @@ package com.gaoz;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import net.minidev.json.JSONUtil;
-import us.codecraft.webmagic.Page;
-import us.codecraft.webmagic.Request;
-import us.codecraft.webmagic.Site;
-import us.codecraft.webmagic.Spider;
+import us.codecraft.webmagic.*;
 import us.codecraft.webmagic.model.HttpRequestBody;
 import us.codecraft.webmagic.processor.PageProcessor;
 import us.codecraft.webmagic.utils.HttpConstant;
 
 
+import javax.swing.text.Document;
+import java.lang.reflect.Field;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -22,7 +21,7 @@ import java.util.Map;
  * @date :
  */
 public class New_spider implements PageProcessor {
-
+    public static String signal ;
     // 抓取网站的相关配置，包括编码、抓取间隔、重试次数等
     private Site site = Site.me().setRetryTimes(3)
                                   .setSleepTime(100)
@@ -47,11 +46,11 @@ public class New_spider implements PageProcessor {
             .setUserAgent("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36")
             .addHeader("X-Requested-With","XMLHttpRequest")
 
-
             ;
 
 
     private static int count =0;
+    private Page page;
 
 
     public Site getSite() {
@@ -59,18 +58,18 @@ public class New_spider implements PageProcessor {
     }
 
     public void process(Page page) {
-        System.out.println(page.getHtml());
+
+        String s = page.getHtml().xpath("//body/text()").toString();
+        JSONObject json_test = JSONObject.parseObject(s);
+        signal = json_test.get("m").toString();
+
+//        System.out.println(json_test.get("m"));
 
     }
 
-    public static void main(String[] args) {
 
-        System.out.println("开始爬取...");
+    private static Map<String,Object> GetMap(){
 
-        //模拟post方式表单提交
-        String postUrl="https://itsapp.bjut.edu.cn/ncov/wap/default/save";
-        Request request = new Request(postUrl);
-        request.setMethod(HttpConstant.Method.POST);
         Map<String,Object> params=new HashMap<String,Object>();
 
         //表单提交的信息学生的姓名
@@ -159,28 +158,27 @@ public class New_spider implements PageProcessor {
         params.put("jrsfqzfy", "");
 
 
-        String jsonString = JSONObject.toJSONString(params);
+//        String jsonString = JSONObject.toJSONString(params);
+
+        return params;
+
+    }
 
 
 
-//        Map<String,Object> p_params=new HashMap<String,Object>();
-//        p_params.put("info",jsonString);
-//        String json_p_params = JSONObject.toJSONString(p_params);
-//
-//        JSONObject j = new JSONObject();
-//        j.put("e","0");
-//        j.put("m","操作成功");
-//        j.put("d",json_p_params);
-//
-//
 
-//        p_params.put();
-//        p_params.put("m","操作成功");
+    public void daka(){
+        System.out.println("开始打卡...");
+        //模拟post方式表单提交
+        String postUrl="https://itsapp.bjut.edu.cn/ncov/wap/default/save";
+        Request request = new Request(postUrl);
+        request.setMethod(HttpConstant.Method.POST);
 
-
+        Map<String , Object> params = new HashMap<>();
+        params = GetMap();
 
         request.setRequestBody(HttpRequestBody.form(params,"utf-8"));
- 
+
         Spider.create(new New_spider())
                 .addRequest(request)
                 //开启1个线程抓取
@@ -188,13 +186,22 @@ public class New_spider implements PageProcessor {
                 //启动爬虫
                 .run();
 
+        SimpleDateFormat s = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+        System.out.println("打卡成功！"+"当前时间："+s.format(new Date()));
+
 
 
 
     }
 
-
-
-
-
+//
+//    public static void main(String[] args) {
+//
+//        System.out.println("开始打卡...");
+//        New_spider spider = new New_spider();
+//        spider.daka();
+//        System.out.println("打卡成功！");
+//
+//
+//    }
 }

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="" />
+    <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/ConsolePipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/CurrTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +61,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Awaken">
+    <configuration name="Awaken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaoz.Awaken" />
+      <module name="xuexiaodaka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaoz.CurrTime" />
+      <module name="xuexiaodaka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="New_spider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gaoz.New_spider" />
       <module name="xuexiaodaka" />
@@ -130,7 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awaken" />
         <item itemvalue="Application.New_spider" />
+        <item itemvalue="Application.CurrTime" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +183,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601442973961</updated>
       <workItem from="1601442978397" duration="10755000" />
-      <workItem from="1601570610417" duration="11950000" />
+      <workItem from="1601570610417" duration="12230000" />
+      <workItem from="1601627106151" duration="11999000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>
