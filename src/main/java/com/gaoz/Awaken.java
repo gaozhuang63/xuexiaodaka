@@ -30,6 +30,10 @@ public class Awaken implements Runnable{
                 //执行打卡
                 System.out.println("执行打卡！");
                 new_spider.daka();
+                if(new_spider.signal.equals(log)){
+                    SimpleDateFormat s = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+                    System.out.println("打卡成功！"+"当前时间："+s.format(new Date()));
+                }
 
             }else {
                 if(new_spider.signal.equals(log)){

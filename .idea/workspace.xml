@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/xuexiaodaka_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -188,7 +186,7 @@
       <updated>1601442973961</updated>
       <workItem from="1601442978397" duration="10755000" />
       <workItem from="1601570610417" duration="12230000" />
-      <workItem from="1601627106151" duration="16924000" />
+      <workItem from="1601627106151" duration="18837000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>
@@ -225,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601644298599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.2 定时打卡功能上线！">
+      <created>1601650311949</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601650311949</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

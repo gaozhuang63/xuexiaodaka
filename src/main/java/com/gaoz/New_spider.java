@@ -63,6 +63,8 @@ public class New_spider implements PageProcessor {
         JSONObject json_test = JSONObject.parseObject(s);
         signal = json_test.get("m").toString();
 
+
+//        System.out.println(page.getHtml().xpath("//body/text()").toString());
 //        System.out.println(json_test.get("m"));
 
     }
@@ -86,17 +88,17 @@ public class New_spider implements PageProcessor {
         params.put("jcjgqr", "0");
         params.put("remark", "");
 
-        params.put("address","%E5%8C%97%E4%BA%AC%E5%B8%82%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA%E5%A4%A7%E5%B3%AA%E8%A1%97%E9%81%93%E9%BE%99%E5%B1%B1%E5%AE%B6%E5%9B%AD5%E5%8F%B7%E9%99%A2%E9%BE%99%E5%B1%B1%E5%AE%B6%E5%9B%AD5%E5%8C%BA");
-        params.put("geo_api_info", "%7B%22type%22%3A%22complete%22%2C%22info%22%3A%22SUCCESS%22%2C%22status%22%3A1%2C%22YDa%22%3A%22jsonp_212958_%22%2C%22position%22%3A%7B%22Q%22%3A39.93496%2C%22R%22%3A116.09919000000002%2C%22lng%22%3A116.09919%2C%22lat%22%3A39.93496%7D%2C%22message%22%3A%22Get+ipLocation+success.Get+address+success.%22%2C%22location_type%22%3A%22ip%22%2C%22accuracy%22%3Anull%2C%22isConverted%22%3Atrue%2C%22addressComponent%22%3A%7B%22citycode%22%3A%22010%22%2C%22adcode%22%3A%22110109%22%2C%22businessAreas%22%3A%5B%7B%22name%22%3A%22%E9%97%A8%E5%A4%B4%E6%B2%9F%22%2C%22id%22%3A%22110109%22%2C%22location%22%3A%7B%22Q%22%3A39.93223%2C%22R%22%3A116.10112900000001%2C%22lng%22%3A116.101129%2C%22lat%22%3A39.93223%7D%7D%2C%7B%22name%22%3A%22%E5%A4%A7%E5%B3%AA%E6%9D%91%22%2C%22id%22%3A%22110109%22%2C%22location%22%3A%7B%22Q%22%3A39.935205%2C%22R%22%3A116.105143%2C%22lng%22%3A116.105143%2C%22lat%22%3A39.935205%7D%7D%2C%7B%22name%22%3A%22%E9%BE%99%E6%B3%89%22%2C%22id%22%3A%22110109%22%2C%22location%22%3A%7B%22Q%22%3A39.952384%2C%22R%22%3A116.090127%2C%22lng%22%3A116.090127%2C%22lat%22%3A39.952384%7D%7D%5D%2C%22neighborhoodType%22%3A%22%22%2C%22neighborhood%22%3A%22%22%2C%22building%22%3A%22%22%2C%22buildingType%22%3A%22%22%2C%22street%22%3A%22%E5%A4%A7%E5%B3%AA%E5%8D%97%E8%B7%AF%22%2C%22streetNumber%22%3A%2221%E5%8F%B7%E6%A5%BC%22%2C%22country%22%3A%22%E4%B8%AD%E5%9B%BD%22%2C%22province%22%3A%22%E5%8C%97%E4%BA%AC%E5%B8%82%22%2C%22city%22%3A%22%22%2C%22district%22%3A%22%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA%22%2C%22township%22%3A%22%E5%A4%A7%E5%B3%AA%E8%A1%97%E9%81%93%22%7D%2C%22formattedAddress%22%3A%22%E5%8C%97%E4%BA%AC%E5%B8%82%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA%E5%A4%A7%E5%B3%AA%E8%A1%97%E9%81%93%E9%BE%99%E5%B1%B1%E5%AE%B6%E5%9B%AD5%E5%8F%B7%E9%99%A2%E9%BE%99%E5%B1%B1%E5%AE%B6%E5%9B%AD5%E5%8C%BA%22%2C%22roads%22%3A%5B%5D%2C%22crosses%22%3A%5B%5D%2C%22pois%22%3A%5B%5D%7D");
-        params.put("area", "%E5%8C%97%E4%BA%AC%E5%B8%82++%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA");
-        params.put("province", "%E5%8C%97%E4%BA%AC%E5%B8%82");
-        params.put("city","%E5%8C%97%E4%BA%AC%E5%B8%82");
+//        params.put("address","%E5%8C%97%E4%BA%AC%E5%B8%82%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA%E5%A4%A7%E5%B3%AA%E8%A1%97%E9%81%93%E9%BE%99%E5%B1%B1%E5%AE%B6%E5%9B%AD5%E5%8F%B7%E9%99%A2%E9%BE%99%E5%B1%B1%E5%AE%B6%E5%9B%AD5%E5%8C%BA");
+//        params.put("geo_api_info", "%7B%22type%22%3A%22complete%22%2C%22info%22%3A%22SUCCESS%22%2C%22status%22%3A1%2C%22YDa%22%3A%22jsonp_212958_%22%2C%22position%22%3A%7B%22Q%22%3A39.93496%2C%22R%22%3A116.09919000000002%2C%22lng%22%3A116.09919%2C%22lat%22%3A39.93496%7D%2C%22message%22%3A%22Get+ipLocation+success.Get+address+success.%22%2C%22location_type%22%3A%22ip%22%2C%22accuracy%22%3Anull%2C%22isConverted%22%3Atrue%2C%22addressComponent%22%3A%7B%22citycode%22%3A%22010%22%2C%22adcode%22%3A%22110109%22%2C%22businessAreas%22%3A%5B%7B%22name%22%3A%22%E9%97%A8%E5%A4%B4%E6%B2%9F%22%2C%22id%22%3A%22110109%22%2C%22location%22%3A%7B%22Q%22%3A39.93223%2C%22R%22%3A116.10112900000001%2C%22lng%22%3A116.101129%2C%22lat%22%3A39.93223%7D%7D%2C%7B%22name%22%3A%22%E5%A4%A7%E5%B3%AA%E6%9D%91%22%2C%22id%22%3A%22110109%22%2C%22location%22%3A%7B%22Q%22%3A39.935205%2C%22R%22%3A116.105143%2C%22lng%22%3A116.105143%2C%22lat%22%3A39.935205%7D%7D%2C%7B%22name%22%3A%22%E9%BE%99%E6%B3%89%22%2C%22id%22%3A%22110109%22%2C%22location%22%3A%7B%22Q%22%3A39.952384%2C%22R%22%3A116.090127%2C%22lng%22%3A116.090127%2C%22lat%22%3A39.952384%7D%7D%5D%2C%22neighborhoodType%22%3A%22%22%2C%22neighborhood%22%3A%22%22%2C%22building%22%3A%22%22%2C%22buildingType%22%3A%22%22%2C%22street%22%3A%22%E5%A4%A7%E5%B3%AA%E5%8D%97%E8%B7%AF%22%2C%22streetNumber%22%3A%2221%E5%8F%B7%E6%A5%BC%22%2C%22country%22%3A%22%E4%B8%AD%E5%9B%BD%22%2C%22province%22%3A%22%E5%8C%97%E4%BA%AC%E5%B8%82%22%2C%22city%22%3A%22%22%2C%22district%22%3A%22%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA%22%2C%22township%22%3A%22%E5%A4%A7%E5%B3%AA%E8%A1%97%E9%81%93%22%7D%2C%22formattedAddress%22%3A%22%E5%8C%97%E4%BA%AC%E5%B8%82%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA%E5%A4%A7%E5%B3%AA%E8%A1%97%E9%81%93%E9%BE%99%E5%B1%B1%E5%AE%B6%E5%9B%AD5%E5%8F%B7%E9%99%A2%E9%BE%99%E5%B1%B1%E5%AE%B6%E5%9B%AD5%E5%8C%BA%22%2C%22roads%22%3A%5B%5D%2C%22crosses%22%3A%5B%5D%2C%22pois%22%3A%5B%5D%7D");
+//        params.put("area", "%E5%8C%97%E4%BA%AC%E5%B8%82++%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA");
+//        params.put("province", "%E5%8C%97%E4%BA%AC%E5%B8%82");
+//        params.put("city","%E5%8C%97%E4%BA%AC%E5%B8%82");
 
-//        params.put("geo_api_info","{\"type\":\"complete\",\"info\":\"SUCCESS\",\"status\":1,\"YDa\":\"jsonp_212958_\",\"position\":{\"Q\":39.93496,\"R\":116.09919000000002,\"lng\":116.09919,\"lat\":39.93496},\"message\":\"Get ipLocation success.Get address success.\",\"location_type\":\"ip\",\"accuracy\":null,\"isConverted\":true,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110109\",\"businessAreas\":[{\"name\":\"门头沟\",\"id\":\"110109\",\"location\":{\"Q\":39.93223,\"R\":116.10112900000001,\"lng\":116.101129,\"lat\":39.93223}},{\"name\":\"大峪村\",\"id\":\"110109\",\"location\":{\"Q\":39.935205,\"R\":116.105143,\"lng\":116.105143,\"lat\":39.935205}},{\"name\":\"龙泉\",\"id\":\"110109\",\"location\":{\"Q\":39.952384,\"R\":116.090127,\"lng\":116.090127,\"lat\":39.952384}}],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"大峪南路\",\"streetNumber\":\"21号楼\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"门头沟区\",\"township\":\"大峪街道\"},\"formattedAddress\":\"北京市门头沟区大峪街道龙山家园5号院龙山家园5区\",\"roads\":[],\"crosses\":[],\"pois\":[]}");
-//        params.put("area", "北京市  门头沟区");
-//        params.put("address","北京市门头沟区大峪街道龙山家园5号院龙山家园5区");
-//        params.put("province","北京市");
-//        params.put("city","北京市");
+        params.put("geo_api_info","{\"type\":\"complete\",\"info\":\"SUCCESS\",\"status\":1,\"YDa\":\"jsonp_212958_\",\"position\":{\"Q\":39.93496,\"R\":116.09919000000002,\"lng\":116.09919,\"lat\":39.93496},\"message\":\"Get ipLocation success.Get address success.\",\"location_type\":\"ip\",\"accuracy\":null,\"isConverted\":true,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110109\",\"businessAreas\":[{\"name\":\"门头沟\",\"id\":\"110109\",\"location\":{\"Q\":39.93223,\"R\":116.10112900000001,\"lng\":116.101129,\"lat\":39.93223}},{\"name\":\"大峪村\",\"id\":\"110109\",\"location\":{\"Q\":39.935205,\"R\":116.105143,\"lng\":116.105143,\"lat\":39.935205}},{\"name\":\"龙泉\",\"id\":\"110109\",\"location\":{\"Q\":39.952384,\"R\":116.090127,\"lng\":116.090127,\"lat\":39.952384}}],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"大峪南路\",\"streetNumber\":\"21号楼\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"门头沟区\",\"township\":\"大峪街道\"},\"formattedAddress\":\"北京市门头沟区大峪街道龙山家园5号院龙山家园5区\",\"roads\":[],\"crosses\":[],\"pois\":[]}");
+        params.put("area", "北京市  门头沟区");
+        params.put("address","北京市门头沟区大峪街道龙山家园5号院龙山家园5区");
+        params.put("province","北京市");
+        params.put("city","北京市");
 
         params.put("sfzx", "1");
         params.put("sfjcwhry", "0");
@@ -186,8 +188,7 @@ public class New_spider implements PageProcessor {
                 //启动爬虫
                 .run();
 
-        SimpleDateFormat s = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
-        System.out.println("打卡成功！"+"当前时间："+s.format(new Date()));
+
 
 
 
