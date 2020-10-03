@@ -57,11 +57,13 @@ public class Awaken implements Runnable{
                 if(f){
                     //间隔时间1*60*3秒，3分钟判断一次打卡。
                     Thread.sleep(1000*60*3);
-                    System.out.println("已休眠3分钟，"+"当前时间："+nowTime);
+                    String newTime = s_min.format(new Date());
+                    System.out.println("已休眠3分钟，"+"当前时间："+newTime);
                 }else{
                     //间隔时间1*60*30秒，30分钟判断一次打卡。
                     Thread.sleep(1000*60*30);
-                    System.out.println("已休眠半小时，"+"当前时间："+nowTime);
+                    String newTime = s_min.format(new Date());
+                    System.out.println("已休眠半小时，"+"当前时间："+newTime);
                 }
             }catch (InterruptedException e) {
                 e.printStackTrace();
