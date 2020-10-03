@@ -5,14 +5,16 @@
       <artifact name="xuexiaodaka:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dakasipder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/xuexiaodaka_jar/xuexiaodaka.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/xuexiaodaka_jar/xuexiaodaka.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/Awaken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/Awaken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/CurrTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/CurrTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +36,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1iDX87L2J41qe22xqjlRt0pKfOe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -50,18 +63,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\dakasipder\src\main\resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Awaken">
     <configuration name="Awaken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -174,6 +175,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -189,6 +191,9 @@
       <workItem from="1601627106151" duration="19664000" />
       <workItem from="1601702318673" duration="3458000" />
       <workItem from="1601705828875" duration="18000" />
+      <workItem from="1601713037830" duration="125000" />
+      <workItem from="1601713178849" duration="310000" />
+      <workItem from="1601713806539" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>
@@ -253,24 +258,30 @@
       <option name="project" value="LOCAL" />
       <updated>1601705766343</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.2.2 修改打卡逻辑，00：00-00：30每3分钟检测一次打卡状态，其余时间半小时检测一次。">
+      <created>1601713117283</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601713117283</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
