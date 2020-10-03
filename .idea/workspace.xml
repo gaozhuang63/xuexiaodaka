@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="" />
+    <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/CurrTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/CurrTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,8 +169,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Awaken" />
-        <item itemvalue="Application.New_spider" />
         <item itemvalue="Application.CurrTime" />
+        <item itemvalue="Application.New_spider" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +187,7 @@
       <workItem from="1601442978397" duration="10755000" />
       <workItem from="1601570610417" duration="12230000" />
       <workItem from="1601627106151" duration="19664000" />
+      <workItem from="1601702318673" duration="3224000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>

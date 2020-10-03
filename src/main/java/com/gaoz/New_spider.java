@@ -63,7 +63,6 @@ public class New_spider implements PageProcessor {
         JSONObject json_test = JSONObject.parseObject(s);
         signal = json_test.get("m").toString();
 
-
 //        System.out.println(page.getHtml().xpath("//body/text()").toString());
 //        System.out.println(json_test.get("m"));
 
@@ -152,7 +151,7 @@ public class New_spider implements PageProcessor {
         params.put("sqhzjkkys", "");
         params.put("sfygtjzzfj", "0");
         params.put("gtjzzfjsj", "");
-        params.put("fxyy", "%E8%BF%94%E6%A0%A1");
+        params.put("fxyy", "返校");
         params.put("id", "4145133");
         params.put("gwszdd", "");
         params.put("sfyqjzgc", "");
@@ -187,9 +186,6 @@ public class New_spider implements PageProcessor {
                 .thread(1)
                 //启动爬虫
                 .run();
-
-
-
 
 
 
