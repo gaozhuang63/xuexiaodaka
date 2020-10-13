@@ -18,30 +18,30 @@ import java.util.Map;
 
 /**
  * @author : gaozhuang
- * @date :
+ * @date : 2020-10-13  14:08
  */
-public class New_spider implements PageProcessor {
+public class R_sipder implements PageProcessor {
     public static String signal ;
     // 抓取网站的相关配置，包括编码、抓取间隔、重试次数等
     private Site site = Site.me().setRetryTimes(3)
-                                  .setSleepTime(100)
-                                   .addHeader("Accept-Language", "zh-CN,zh;q=0.9")
-                                    .addHeader("Accept","application/json, text/javascript, */*; q=0.01")
+            .setSleepTime(100)
+            .addHeader("Accept-Language", "zh-CN,zh;q=0.9")
+            .addHeader("Accept","application/json, text/javascript, */*; q=0.01")
 //            .addHeader("Content-Length","2814")
             .addHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8")
             .addHeader("Origin", "https://itsapp.bjut.edu.cn")
             .addHeader("Referer", "https://itsapp.bjut.edu.cn/ncov/wap/default/index")
-                                  .addHeader("Connection", "keep-alive")
-                                  .addCookie("Hm_lvt_48b682d4885d22a90111e46b972e3268","1601481951")
-                                  .addCookie("UUkey","a57275025c2874ab0e3deb06701b8271")
-                                  .addCookie("eai-sess","oar4ahmoaflrciv0rntlmq80v4")
-                                  .addCookie("Hm_lpvt_48b682d4885d22a90111e46b972e3268","1601481951")
-                                  .addCookie("LAST_PORTAL_PAGE","p323")
+            .addHeader("Connection", "keep-alive")
+            .addCookie("Hm_lvt_48b682d4885d22a90111e46b972e3268","1602568156,1602568425")
+            .addCookie("UUkey","17d730ba73bc1a1610ce6d9ae5e8fe5d")
+            .addCookie("eai-sess","bbaljjl89goife5s3aanvgc1v7")
+            .addCookie("Hm_lpvt_48b682d4885d22a90111e46b972e3268","1602568425")
+            .addCookie("LAST_PORTAL_PAGE","p323")
 //            .addHeader("Cookie","LAST_PORTAL_PAGE=p323; eai-sess=oar4ahmoaflrciv0rntlmq80v4; UUkey=a57275025c2874ab0e3deb06701b8271; Hm_lvt_48b682d4885d22a90111e46b972e3268=1601481951,1601572583; Hm_lpvt_48b682d4885d22a90111e46b972e3268=1601575609")
-                                  .addHeader("Host","itsapp.bjut.edu.cn")
-                                    .addHeader("Sec-Fetch-Dest","empty")
-                                .addHeader("Sec-Fetch-Mode", "cors")
-                                .addHeader("Sec-Fetch-Site","same-origin")
+            .addHeader("Host","itsapp.bjut.edu.cn")
+            .addHeader("Sec-Fetch-Dest","empty")
+            .addHeader("Sec-Fetch-Mode", "cors")
+            .addHeader("Sec-Fetch-Site","same-origin")
             .addHeader("Referer", "https://itsapp.bjut.edu.cn/ncov/wap/default/index")
             .setUserAgent("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36")
             .addHeader("X-Requested-With","XMLHttpRequest")
@@ -55,33 +55,31 @@ public class New_spider implements PageProcessor {
     public Site getSite() {
         return site;
     }
-
     public void process(Page page) {
 
         String s = page.getHtml().xpath("//body/text()").toString();
         JSONObject json_test = JSONObject.parseObject(s);
         signal = json_test.get("m").toString();
-
+//
 //        System.out.println(page.getHtml().xpath("//body/text()").toString());
 //        System.out.println(json_test.get("m"));
 
     }
 
+    private static Map<String,Object> GetMap() {
 
-    private static Map<String,Object> GetMap(){
-
-        Map<String,Object> params=new HashMap<String,Object>();
+        Map<String, Object> params = new HashMap<String, Object>();
 
         //表单提交的信息学生的姓名
-        params.put("ismoved","0");
-        params.put("jhfjrq","");
-        params.put("jhfjjtgj","");
-        params.put("jhfjhbcc","");
-        params.put("tw","2");
+        params.put("ismoved", "0");
+        params.put("jhfjrq", "");
+        params.put("jhfjjtgj", "");
+        params.put("jhfjhbcc", "");
+        params.put("tw", "2");
         params.put("sfcxtz", "0");
         params.put("sfjcbh", "0");
-        params.put("sfcxzysx","0");
-        params.put("qksm","");
+        params.put("sfcxzysx", "0");
+        params.put("qksm", "");
         params.put("sfyyjc", "0");
         params.put("jcjgqr", "0");
         params.put("remark", "");
@@ -92,15 +90,15 @@ public class New_spider implements PageProcessor {
 //        params.put("province", "%E5%8C%97%E4%BA%AC%E5%B8%82");
 //        params.put("city","%E5%8C%97%E4%BA%AC%E5%B8%82");
 
-        params.put("geo_api_info","{\"type\":\"complete\",\"info\":\"SUCCESS\",\"status\":1,\"YDa\":\"jsonp_257739_\",\"position\":{\"Q\":39.88492,\"R\":116.47964000000002,\"lng\":116.47964,\"lat\":39.88492},\"message\":\"Get ipLocation success.Get address success.\",\"location_type\":\"ip\",\"accuracy\":null,\"isConverted\":true,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110105\",\"businessAreas\":[{\"name\":\"大郊亭\",\"id\":\"110105\",\"location\":{\"Q\":39.888761,\"R\":116.48342100000002,\"lng\":116.483421,\"lat\":39.888761}},{\"name\":\"百子湾\",\"id\":\"110105\",\"location\":{\"Q\":39.894565,\"R\":116.490882,\"lng\":116.490882,\"lat\":39.894565}},{\"name\":\"南磨房\",\"id\":\"110105\",\"location\":{\"Q\":39.883719,\"R\":116.47472800000003,\"lng\":116.474728,\"lat\":39.883719}}],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"西大望路\",\"streetNumber\":\"27号\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"朝阳区\",\"township\":\"劲松街道\"},\"formattedAddress\":\"北京市朝阳区劲松街道蓝晖园\",\"roads\":[],\"crosses\":[],\"pois\":[]}");
+        params.put("geo_api_info", "{\"type\":\"complete\",\"info\":\"SUCCESS\",\"status\":1,\"YDa\":\"jsonp_257739_\",\"position\":{\"Q\":39.88492,\"R\":116.47964000000002,\"lng\":116.47964,\"lat\":39.88492},\"message\":\"Get ipLocation success.Get address success.\",\"location_type\":\"ip\",\"accuracy\":null,\"isConverted\":true,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110105\",\"businessAreas\":[{\"name\":\"大郊亭\",\"id\":\"110105\",\"location\":{\"Q\":39.888761,\"R\":116.48342100000002,\"lng\":116.483421,\"lat\":39.888761}},{\"name\":\"百子湾\",\"id\":\"110105\",\"location\":{\"Q\":39.894565,\"R\":116.490882,\"lng\":116.490882,\"lat\":39.894565}},{\"name\":\"南磨房\",\"id\":\"110105\",\"location\":{\"Q\":39.883719,\"R\":116.47472800000003,\"lng\":116.474728,\"lat\":39.883719}}],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"西大望路\",\"streetNumber\":\"27号\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"朝阳区\",\"township\":\"劲松街道\"},\"formattedAddress\":\"北京市朝阳区劲松街道蓝晖园\",\"roads\":[],\"crosses\":[],\"pois\":[]}");
         params.put("area", "北京市  朝阳区");
-        params.put("address","北京市朝阳区劲松街道蓝晖园");
-        params.put("province","北京市");
-        params.put("city","北京市");
+        params.put("address", "北京市朝阳区劲松街道蓝晖园");
+        params.put("province", "北京市");
+        params.put("city", "北京市");
 
         params.put("sfzx", "1");
         params.put("sfjcwhry", "0");
-        params.put("sfjchbry","0");
+        params.put("sfjchbry", "0");
         params.put("sfcyglq", "0");
         params.put("gllx", "");
         params.put("glksrq", "");
@@ -128,8 +126,8 @@ public class New_spider implements PageProcessor {
         params.put("jrfjjtgj", "");
         params.put("jrfjhbcc", "");
         params.put("fjyy", "");
-        params.put("szsqsfty", "");
-        params.put("sfxxxbb", "");
+        params.put("szsqsfty", "1");
+        params.put("sfxxxbb", "1");
         params.put("jcjg", "");
 
         SimpleDateFormat format = new SimpleDateFormat("YYYYMMdd");
@@ -137,12 +135,12 @@ public class New_spider implements PageProcessor {
         c.setTime(new Date());
         c.add(Calendar.DATE, -1);
         Date start = c.getTime();
-        String qyt= format.format(start);//前一天
+        String qyt = format.format(start);//前一天
 //        System.out.println(qyt);
 
         params.put("date", qyt);
-        params.put("uid", "73236");
-        params.put("created","1601435100");
+        params.put("uid", "73227");
+        params.put("created", "1602477691");
         params.put("jcqzrq", "");
         params.put("sfjcqz", "");
         params.put("szsqsfybl", "0");
@@ -151,8 +149,8 @@ public class New_spider implements PageProcessor {
         params.put("sfygtjzzfj", "0");
         params.put("gtjzzfjsj", "");
         params.put("fxyy", "学习");
-        params.put("id", "4145133");
-        params.put("fjsj","20200831");
+        params.put("fjsj", "20200831");
+        params.put("id", "4421763");
         params.put("gwszdd", "");
         params.put("sfyqjzgc", "");
         params.put("jrsfqzys", "");
@@ -162,12 +160,7 @@ public class New_spider implements PageProcessor {
 //        String jsonString = JSONObject.toJSONString(params);
 
         return params;
-
     }
-
-
-
-
     public void daka(){
         System.out.println("开始打卡...");
         //模拟post方式表单提交
@@ -180,7 +173,7 @@ public class New_spider implements PageProcessor {
 
         request.setRequestBody(HttpRequestBody.form(params,"utf-8"));
 
-        Spider.create(new New_spider())
+        Spider.create(new R_sipder())
                 .addRequest(request)
                 //开启1个线程抓取
                 .thread(1)
@@ -188,15 +181,16 @@ public class New_spider implements PageProcessor {
                 .run();
 
     }
-
-//
 //    public static void main(String[] args) {
 //
 //        System.out.println("开始打卡...");
-//        New_spider spider = new New_spider();
-//        spider.daka();
+//        R_sipder sipder = new R_sipder();
+//        sipder.daka();
 //        System.out.println("打卡成功！");
 //
 //
 //    }
+
+
+
 }

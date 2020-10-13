@@ -10,11 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/R_sipder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dakasipder.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/xuexiaodaka_jar/xuexiaodaka.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/xuexiaodaka_jar/xuexiaodaka.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/Awaken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/Awaken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,8 +57,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -64,7 +68,19 @@
       <recent name="E:\workspace\dakasipder\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Awaken">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.R_sipder">
     <configuration name="Awaken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gaoz.Awaken" />
       <module name="xuexiaodaka" />
@@ -94,6 +110,19 @@
     <configuration name="New_spider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gaoz.New_spider" />
       <module name="xuexiaodaka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="R_sipder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaoz.R_sipder" />
+      <module name="dakasipder" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gaoz.*" />
@@ -169,13 +198,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.R_sipder" />
         <item itemvalue="Application.Awaken" />
         <item itemvalue="Application.CurrTime" />
         <item itemvalue="Application.New_spider" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -194,6 +224,8 @@
       <workItem from="1601713037830" duration="125000" />
       <workItem from="1601713178849" duration="310000" />
       <workItem from="1601713806539" duration="118000" />
+      <workItem from="1602239877183" duration="1642000" />
+      <workItem from="1602568927052" duration="1949000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>
@@ -269,19 +301,20 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />

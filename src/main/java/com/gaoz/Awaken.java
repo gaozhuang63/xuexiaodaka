@@ -24,6 +24,7 @@ public class Awaken implements Runnable{
     @Override
     public void run(){
         New_spider new_spider = new New_spider();
+        R_sipder r_sipder = new R_sipder();
         while(true){
 //            CurrTime c = new CurrTime();
 //            Date now_day = c.now_day;
@@ -37,6 +38,7 @@ public class Awaken implements Runnable{
                 System.out.println("submit_day_update:" + last_submit);
                 //执行打卡
                 System.out.println("执行打卡！");
+                r_sipder.daka();
                 new_spider.daka();
 
                 if(new_spider.signal.equals(log)){
@@ -47,6 +49,7 @@ public class Awaken implements Runnable{
                     System.out.println("今日已打卡！ "+"当前时间："+ss.format(new Date()));
                 }else{
                     System.out.println("尝试再次打卡....");
+                    r_sipder.daka();
                     new_spider.daka();
                 }
             }
@@ -100,6 +103,8 @@ public class Awaken implements Runnable{
 
 
     public static void main(String[] args){
+
+
         Awaken myawaken = new Awaken();
         Thread thread = new Thread(myawaken,"今日打卡");
         thread.start();
