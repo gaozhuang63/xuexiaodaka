@@ -10,13 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad286aed-a4ae-4c5d-9f40-f02e84cde99e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/R_sipder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dakasipder_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/xuexiaodaka_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/Awaken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gaoz/New_spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/Awaken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/Awaken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/xuexiaodaka_jar/xuexiaodaka.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/xuexiaodaka_jar/xuexiaodaka.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/Awaken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/ConsolePipeline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/CurrTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gaoz/New_spider.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +51,11 @@
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="E:\workspace\xuexiaodaka" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1iDX87L2J41qe22xqjlRt0pKfOe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,10 +68,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,10 +90,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.R_sipder">
+  <component name="RunManager" selected="Application.Awaken">
     <configuration name="Awaken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gaoz.Awaken" />
-      <module name="xuexiaodaka" />
+      <module name="dakasipder" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gaoz.*" />
@@ -96,7 +106,7 @@
     </configuration>
     <configuration name="CurrTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gaoz.CurrTime" />
-      <module name="xuexiaodaka" />
+      <module name="dakasipder" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gaoz.*" />
@@ -109,7 +119,7 @@
     </configuration>
     <configuration name="New_spider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gaoz.New_spider" />
-      <module name="xuexiaodaka" />
+      <module name="dakasipder" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gaoz.*" />
@@ -196,10 +206,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Awaken" />
+      <item itemvalue="Application.CurrTime" />
+      <item itemvalue="Application.New_spider" />
+      <item itemvalue="Application.R_sipder" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.R_sipder" />
         <item itemvalue="Application.Awaken" />
+        <item itemvalue="Application.R_sipder" />
         <item itemvalue="Application.CurrTime" />
         <item itemvalue="Application.New_spider" />
       </list>
@@ -225,7 +241,7 @@
       <workItem from="1601713178849" duration="310000" />
       <workItem from="1601713806539" duration="118000" />
       <workItem from="1602239877183" duration="1642000" />
-      <workItem from="1602568927052" duration="1949000" />
+      <workItem from="1602568927052" duration="3888000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1601458267997</created>
@@ -297,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601713117283</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1.2.3 更改地址。">
+      <created>1602579331193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602579331194</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +345,7 @@
     <MESSAGE value="1.2 定时打卡功能上线！" />
     <MESSAGE value="1.2.1 修改打卡所需位置信息" />
     <MESSAGE value="1.2.2 修改打卡逻辑，00：00-00：30每3分钟检测一次打卡状态，其余时间半小时检测一次。" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2.2 修改打卡逻辑，00：00-00：30每3分钟检测一次打卡状态，其余时间半小时检测一次。" />
+    <MESSAGE value="1.2.3 更改地址。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2.3 更改地址。" />
   </component>
 </project>
